@@ -30,5 +30,4 @@ This is Vue.js app. To install, do the following,
 3. Run `npm run dev`
 4. You should see the follwoing website if you go to: `http://localhost:5173/`
 
-
-
+<img width="1434" height="529" alt="Screenshot 2025-10-08 at 12 49 19 AM" src="https://github.com/user-attachments/assets/4c42d0de-fc9e-42ce-ad09-934c323f1be1" />
