@@ -18,7 +18,7 @@ This project contains a python server for contacting the Gemini API.
 5. Install packages: `pip install -r requirements.txt`
 6. install google genai python package: `pip install -q -U google-genai`
 7. Get the Gemini API key: got to `https://aistudio.google.com/app/apikey` and create an api key
-8. Add API Key in the PATH:  
+8. Add API Key in the PATH (Check online for windows instruction):  
       `echo 'export GEMINI_API_KEY="your_actual_api_key_here"' >> ~/.zshrc`  
       `source ~/.zshrc`
 9. Check API key: `echo $GEMINI_API_KEY`
