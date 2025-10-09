@@ -10,17 +10,19 @@ This is a simple website with a client and server side. To install:
 This project contains a python server for contacting the Gemini API.
 
 1. Go to the server folder: `cd server`
-2. Create a virtual environment: `python -m venv venv`
-3. Activate the virtual environment:  
+2. Remove the venv folder under the server folder.
+3. Create a virtual environment: `python -m venv venv` or go to step 6 directly.
+4. Activate the virtual environment:  
     `source venv/bin/activate` (#macOS / Linux) or  
    `venv\Scripts\activate` (# Windows)
 5. Install packages: `pip install -r requirements.txt`
-6. Get the Gemini API key: got to `https://aistudio.google.com/app/apikey` and create an api key
-7. Add API Key in the PATH:  
+6. install google genai python package: `pip install -q -U google-genai`
+7. Get the Gemini API key: got to `https://aistudio.google.com/app/apikey` and create an api key
+8. Add API Key in the PATH:  
       `echo 'export GEMINI_API_KEY="your_actual_api_key_here"' >> ~/.zshrc`  
       `source ~/.zshrc`
-8. Check API key: `echo $GEMINI_API_KEY`
-9. Run the server: `python app.py`. This should start the server in `http://127.0.0.1:5001`
+9. Check API key: `echo $GEMINI_API_KEY`
+10. Run the server: `python app.py`. This should start the server in `http://127.0.0.1:5001`
 
 ## Client setup
 This is Vue.js app. To install, do the following,
