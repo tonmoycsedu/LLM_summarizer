@@ -18,9 +18,11 @@ This project contains a python server for contacting the Gemini API.
 5. Install packages: `pip install -r requirements.txt`
 6. install google genai python package: `pip install -q -U google-genai`
 7. Get the Gemini API key: got to `https://aistudio.google.com/app/apikey` and create an api key
-8. Add API Key in the PATH (Check online for windows instruction):  
+8.1. Add API Key in the PATH (For MacOS):  
       `echo 'export GEMINI_API_KEY="your_actual_api_key_here"' >> ~/.zshrc`  
       `source ~/.zshrc`
+8.2. For Windows in Powershell:
+       [System.Environment]::SetEnvironmentVariable("GEMINI_API_KEY", "your_actual_api_key_here", "User")
 9. Check API key: `echo $GEMINI_API_KEY`
 10. Run the server: `python app.py`. This should start the server in `http://127.0.0.1:5001`
 
