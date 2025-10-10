@@ -11,14 +11,15 @@ This project contains a python server for contacting the Gemini API.
 
 1. Go to the server folder: `cd server`
 2. Remove the venv folder under the server folder.
-3. Follow steps 3-5 to create a virtual environment: `python -m venv venv`. Alternatively, go to step 6.
-4. Activate the virtual environment:    
-   `source venv/bin/activate` (#macOS / Linux) or  
-   `venv\Scripts\activate` (# Windows)
-5. Install packages: `pip install -r requirements.txt`
-6. install google genai and flask python packages: `pip install -q -U google-genai flask flask-cors`
-7. Get the Gemini API key: got to `https://aistudio.google.com/app/apikey` and create an api key.  
-8. Add API Key in the PATH:  
+3. Follow either step 3 or step 4.  
+   a. create a virtual environment: `python -m venv venv`.  
+   b. Activate the virtual environment:     
+      `source venv/bin/activate` (#macOS / Linux) or  
+      `venv\Scripts\activate` (# Windows)  
+   c. Install packages: `pip install -r requirements.txt`
+7. install google genai and flask python packages: `pip install -q -U google-genai flask flask-cors`
+8. Get the Gemini API key: got to `https://aistudio.google.com/app/apikey` and create an api key.  
+9. Add API Key in the PATH:  
    For MacOS:    
       `echo 'export GEMINI_API_KEY="your_actual_api_key_here"' >> ~/.zshrc`  
       `source ~/.zshrc`    
