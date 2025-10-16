@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/naimulhoque/Desktop/Root/Academic/Teaching/DataViz-UIOWA/d3-test/server/venv"
+VIRTUAL_ENV="/Users/naimulhoque/Desktop/Root/Academic/Teaching/DataViz-UIOWA/LLM_summarizer/server/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
